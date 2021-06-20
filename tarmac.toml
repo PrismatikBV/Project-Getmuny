@@ -1,0 +1,7 @@
+name = "simulator"
+
+[[inputs]]
+glob = "assets/**/*.png"
+codegen = true
+codegen-path = "src/ReplicatedStorage/Assets.lua"
+codegen-base-path = "assets"
